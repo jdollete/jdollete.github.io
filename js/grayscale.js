@@ -11,14 +11,23 @@ function collapseNavbar() {
         $(".nav-title").addClass("nav-title-collapse");
         $("body").addClass("body-b").removeClass("body-a");
     } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $(".navbar-fixed-top").removeClass("top-nav-collapse nav-title-collapse-bg");
         $(".nav-title").removeClass("nav-title-collapse");
         $("body").addClass("body-a").removeClass("body-b");
+      
+    }
+}
+
+function addNavBg() {
+    if ($(".navbar").offset().top > 170) {
+        $(".navbar-fixed-top").addClass("nav-title-collapse-bg");
     }
 }
 
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);
+$(window).scroll(addNavBg);
+$(document).ready(addNavBg);
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
