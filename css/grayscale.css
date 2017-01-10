@@ -282,8 +282,8 @@ ul.nav-ul-left li {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-  background-color: black;
+  /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
+  /*background-color: black;*/
   /*delete this when ready*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
