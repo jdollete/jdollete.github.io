@@ -279,10 +279,26 @@ ul.nav-ul-left li {
   padding-top: 100px;
 }
 
+.company {
+  display: inline-block;
+  margin: 0px;
+}
+
+section#experience ul{
+  list-style: none;
+}
+
+.work-time {
+    margin-left: 1px;
+    background-color: #f0f0f0;
+    border-radius: 7px;
+    padding-left: 3px;
+}
+
 .experience-section {
   width: 100%;
   padding: 50px 0;
-  color: white;
+  /*color: white;*/
   /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
   /*background-color: black;*/
   /*delete this when ready*/
