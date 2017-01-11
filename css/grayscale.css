@@ -286,6 +286,7 @@ ul.nav-ul-left li {
 
 section#experience ul{
   list-style: none;
+  padding: 0px;
 }
 
 .work-time {
