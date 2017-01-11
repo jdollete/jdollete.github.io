@@ -350,6 +350,9 @@ ul.banner-social-buttons {
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
   }
+  .company {
+    display: block;
+  }
 }
 
 footer {
