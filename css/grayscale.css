@@ -70,6 +70,12 @@ a:hover, a:focus {
   font-weight: 400;
 }
 
+.name-top {
+  margin-top: 150px;
+  font-size: 6em;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -134,6 +140,10 @@ a:hover, a:focus {
   .navbar-custom {
     background: #151715;
   }
+  .name-top {
+    font-size: 45px;
+    margin-top: 30px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -151,6 +161,9 @@ a:hover, a:focus {
     /*background: white;*/
     /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
   }
+}
+.name-title {
+  color:#151715;
 }
 .nav-title-collapse-bg {
   background: white;
@@ -188,9 +201,14 @@ ul.nav-ul-left li {
   font-size: 40px;
 }
 
-.intro .intro-body .intro-text {
-  font-size: 18px;
-  margin-bottom: 200px;
+.intro .intro-body .intro-one {
+  font-size: 30px;
+  margin: 0px;
+}
+
+.intro .intro-body .intro-two {
+  font-size: 20px;
+  margin-bottom: 100px;
 }
 
 @media (min-width: 768px) {
@@ -200,9 +218,6 @@ ul.nav-ul-left li {
   }
   .intro .intro-body .brand-heading {
     font-size: 100px;
-  }
-  .intro .intro-body .intro-text {
-    font-size: 26px;
   }
 }
 
@@ -282,6 +297,60 @@ ul.nav-ul-left li {
 .company {
   display: inline-block;
   margin: 0px;
+}
+
+.category-title {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.icon-spacing {
+  margin-bottom: 10px;
+}
+
+.front-end-icon {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  padding: 15px;
+  width: 60px;
+  height: 60px;
+  padding-left: 17px;
+  padding-top: 18px;
+}
+
+.back-end-icon {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  padding: 15px;
+  width: 60px;
+  height: 60px;
+  padding-left: 17px;
+  padding-top: 18px;
+}
+
+.tools-icon {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  padding: 15px;
+  width: 60px;
+  height: 60px;
+  padding-left: 16px;
+  padding-top: 17px;
+}
+
+.modeling-icon {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  padding: 15px;
+  width: 60px;
+  height: 60px;
+  padding-left: 17px;
+  padding-top: 17px;
 }
 
 section#experience ul{
