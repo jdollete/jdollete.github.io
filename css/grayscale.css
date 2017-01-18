@@ -308,9 +308,13 @@ ul.nav-ul-left li {
 }
 
 .project-title {
+  font-size: 20px !important; /*Come back and fix this issue*/
   font-weight: bold;
-  display: inline-block;
+  /*display: inline-block;*/
+  display: block;
   margin: 0px;
+  margin-bottom: 5px !important; /*Come back and fix this issue*/
+  text-align: left;
 }
 
 .category-title {
@@ -417,17 +421,30 @@ section#projects ul {
 }
 
 section#projects li {
-    width: 300px;
+    width: 100px;
     display: inline-block;
     margin: 20px 10px 20px 10px;
     vertical-align: top;
+    text-align: left;
 }
+
+section#projects ul li:first-child {
+  width: 500px;
+  /*color: blue;*/
+  margin-right: 60px;
+  display: inline-block;
+}
+
 
 section#projects p {
   margin: 0px;
 }
 
-.moreBadge {
+hr {
+  width: 75%;
+}
+
+/*.moreBadge {
     background: #191919;
 }
 
@@ -438,7 +455,7 @@ section#projects p {
 
 .moreBadge a {
     color: #fff;
-}
+}*/
 
 .moreBadge:hover {
     background-color: #1F6CFF;
@@ -497,9 +514,8 @@ ul.banner-social-buttons {
   }
 }
 
-ul.project-list p:nth-child(2) {
+ul.project-list li * {
   font-size: 14px;
-  /*color: blue;*/
 }
 
 /*p.copyright-text {
