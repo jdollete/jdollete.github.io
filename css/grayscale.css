@@ -307,6 +307,12 @@ ul.nav-ul-left li {
   margin: 0px;
 }
 
+.project-title {
+  font-weight: bold;
+  display: inline-block;
+  margin: 0px;
+}
+
 .category-title {
   display: inline-block;
   margin-bottom: 20px;
@@ -481,6 +487,9 @@ ul.banner-social-buttons {
     margin-bottom: 0;
   }
   .company {
+    display: block;
+  }
+  .project-title {
     display: block;
   }
 }
