@@ -71,9 +71,10 @@ a:hover, a:focus {
 }
 
 .name-top {
-  margin-top: 150px;
-  font-size: 6em;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 6em;
+  font-weight: bold;
+  margin-top: 150px;
 }
 
 .navbar-custom {
@@ -141,8 +142,15 @@ a:hover, a:focus {
     background: #151715;
   }
   .name-top {
-    font-size: 45px;
+    font-size: 35px;
     margin-top: 30px;
+  }
+  p.intro-one {
+    font-size: 25px;
+  }
+  p.intro-two {
+    font-size: 15px;
+    margin-bottom: 80px;
   }
 }
 
@@ -201,12 +209,12 @@ ul.nav-ul-left li {
   font-size: 40px;
 }
 
-.intro .intro-body .intro-one {
+.intro-one {
   font-size: 30px;
   margin: 0px;
 }
 
-.intro .intro-body .intro-two {
+.intro-two {
   font-size: 20px;
   margin-bottom: 100px;
 }
@@ -476,6 +484,10 @@ ul.banner-social-buttons {
     display: block;
   }
 }
+
+/*p.copyright-text {
+  font-size: 20px;
+}*/
 
 footer {
   padding: 50px 0;
