@@ -417,7 +417,7 @@ section#projects ul {
 }
 
 section#projects li {
-    width: 200px;
+    width: 300px;
     display: inline-block;
     margin: 20px 10px 20px 10px;
     vertical-align: top;
@@ -461,10 +461,13 @@ section#projects p {
 }
 
 .btn-default:hover, .btn-default:focus {
-  border: 1px solid #151715;
+  border: 1px solid #1F6CFF;
+  /*border: 1px solid #151715;*/
+  1F6CFF
   outline: none;
   color: white;
-  background-color: #151715;
+  background-color: #1F6CFF;
+  /*background-color: #151715;*/
 }
 
 ul.banner-social-buttons {
@@ -492,6 +495,11 @@ ul.banner-social-buttons {
   .project-title {
     display: block;
   }
+}
+
+ul.project-list p:nth-child(2) {
+  font-size: 14px;
+  /*color: blue;*/
 }
 
 /*p.copyright-text {
