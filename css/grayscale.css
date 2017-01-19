@@ -49,7 +49,7 @@ p {
 @media (min-width: 768px) {
   p {
     margin: 0 0 35px;
-    font-size: 20px;
+    /*font-size: 20px;*/
     line-height: 1.6;
   }
 }
@@ -423,7 +423,8 @@ section#projects ul {
 section#projects li {
     width: 100px;
     display: inline-block;
-    margin: 20px 10px 20px 10px;
+    /*margin: 20px 10px 20px 10px;*/
+    /*margin-bottom: 20px;*/
     vertical-align: top;
     text-align: left;
 }
@@ -440,8 +441,19 @@ section#projects p {
   margin: 0px;
 }
 
+.project-tech {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 36px;
+}
+
+li.project-tech p {
+  font-size: 11px;
+}
+
 hr {
   width: 75%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /*.moreBadge {
@@ -512,9 +524,18 @@ ul.banner-social-buttons {
   .project-title {
     display: block;
   }
+  ul.project-list {
+    margin: 0px;
+    width: 300px;
+    color: blue;
+  }
+  .project-desc {
+    width: 300px;
+    margin: 0px;
+  }
 }
 
-ul.project-list li * {
+ul.project-list li:first-child {
   font-size: 14px;
 }
 
