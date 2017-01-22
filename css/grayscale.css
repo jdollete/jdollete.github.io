@@ -525,9 +525,11 @@ ul.banner-social-buttons {
     display: block;
   }
   ul.project-list {
-    margin: 0px;
+    /*margin: 0px;*/
+    margin-left: 10%;
     width: 300px;
-    color: blue;
+    /*color: blue;*/
+    text-align: center;
   }
   .project-desc {
     width: 300px;
