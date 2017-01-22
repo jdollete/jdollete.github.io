@@ -49,7 +49,7 @@ p {
 @media (min-width: 768px) {
   p {
     margin: 0 0 35px;
-    font-size: 20px;
+    /*font-size: 20px;*/
     line-height: 1.6;
   }
 }
@@ -308,9 +308,13 @@ ul.nav-ul-left li {
 }
 
 .project-title {
+  font-size: 20px !important; /*Come back and fix this issue*/
   font-weight: bold;
-  display: inline-block;
+  /*display: inline-block;*/
+  display: block;
   margin: 0px;
+  margin-bottom: 5px !important; /*Come back and fix this issue*/
+  text-align: left;
 }
 
 .category-title {
@@ -417,17 +421,42 @@ section#projects ul {
 }
 
 section#projects li {
-    width: 300px;
+    width: 100px;
     display: inline-block;
-    margin: 20px 10px 20px 10px;
+    /*margin: 20px 10px 20px 10px;*/
+    /*margin-bottom: 20px;*/
     vertical-align: top;
+    text-align: left;
 }
+
+section#projects ul li:first-child {
+  width: 500px;
+  /*color: blue;*/
+  margin-right: 60px;
+  display: inline-block;
+}
+
 
 section#projects p {
   margin: 0px;
 }
 
-.moreBadge {
+.project-tech {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 36px;
+}
+
+li.project-tech p {
+  font-size: 11px;
+}
+
+hr {
+  width: 75%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*.moreBadge {
     background: #191919;
 }
 
@@ -438,7 +467,7 @@ section#projects p {
 
 .moreBadge a {
     color: #fff;
-}
+}*/
 
 .moreBadge:hover {
     background-color: #1F6CFF;
@@ -495,11 +524,21 @@ ul.banner-social-buttons {
   .project-title {
     display: block;
   }
+  ul.project-list {
+    /*margin: 0px;*/
+    margin-left: 10%;
+    width: 300px;
+    /*color: blue;*/
+    text-align: center;
+  }
+  .project-desc {
+    width: 300px;
+    margin: 0px;
+  }
 }
 
-ul.project-list p:nth-child(2) {
+ul.project-list li:first-child {
   font-size: 14px;
-  /*color: blue;*/
 }
 
 /*p.copyright-text {
